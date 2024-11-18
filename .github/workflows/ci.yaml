@@ -1,0 +1,54 @@
+name: CI
+run-name: ${{ github.actor }} run CI
+env:
+  CC: gcc
+  CXX: g++
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+
+        uses: actions/checkout@v3
+      - run: |
+          sudo apt-get update
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y gcc g++ make cmake cppcheck
+
+      - run: mkdir -p build && cd build && cmake .. && make
+      - run: cd ..
+      - name: Client-sided tests
+        run: |
+          cd build
+          ./TestsClient
+          cd ..
+      - name: Server-sided tests
+        run: |
+          cd build
+          ./TestsServer
+          cd ..
+      - name: Static tests (only WARNINGS)
+        run: cppcheck --enable=warning --std=c++17 --force .
+
+      - name: Docker Login
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+      - name: Build Docker image
+        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/firstrepos:latest .
+      - name: Push Docker image
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/firstrepos:latest
+
+      - run: sh http_cli.sh
+      - run: sh http_serv.sh
+      - name: Upload Server artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: app
+          path: ./HTTPServer.deb
+      - name: Upload Client artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: app
+          path: ./HTTPClient.deb
