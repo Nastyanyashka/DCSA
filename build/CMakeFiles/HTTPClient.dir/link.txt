@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/HTTPClient.dir/src/client.cpp.o CMakeFiles/HTTPClient.dir/src/Utility.cpp.o -o HTTPClient  lib/libhv_static.a -lpthread -lm -ldl -lrt -lstdc++ 

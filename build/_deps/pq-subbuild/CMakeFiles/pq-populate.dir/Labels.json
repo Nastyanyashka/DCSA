@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/pq-subbuild/CMakeFiles/pq-populate"
+		},
+		{
+			"file" : "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/pq-subbuild/CMakeFiles/pq-populate.rule"
+		},
+		{
+			"file" : "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/pq-subbuild/CMakeFiles/pq-populate-complete.rule"
+		},
+		{
+			"file" : "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/pq-subbuild/pq-populate-prefix/src/pq-populate-stamp/pq-populate-build.rule"
+		},
+		{
+			"file" : "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/pq-subbuild/pq-populate-prefix/src/pq-populate-stamp/pq-populate-configure.rule"
+		},
+		{
+			"file" : "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/pq-subbuild/pq-populate-prefix/src/pq-populate-stamp/pq-populate-download.rule"
+		},
+		{
+			"file" : "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/pq-subbuild/pq-populate-prefix/src/pq-populate-stamp/pq-populate-install.rule"
+		},
+		{
+			"file" : "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/pq-subbuild/pq-populate-prefix/src/pq-populate-stamp/pq-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/pq-subbuild/pq-populate-prefix/src/pq-populate-stamp/pq-populate-patch.rule"
+		},
+		{
+			"file" : "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/pq-subbuild/pq-populate-prefix/src/pq-populate-stamp/pq-populate-test.rule"
+		},
+		{
+			"file" : "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/pq-subbuild/pq-populate-prefix/src/pq-populate-stamp/pq-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pq-populate"
+		],
+		"name" : "pq-populate"
+	}
+}

@@ -1,0 +1,14 @@
+# Target labels
+ nlohmann_json-populate
+# Source files and their labels
+/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/nlohmann_json-subbuild/CMakeFiles/nlohmann_json-populate
+/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/nlohmann_json-subbuild/CMakeFiles/nlohmann_json-populate.rule
+/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/nlohmann_json-subbuild/CMakeFiles/nlohmann_json-populate-complete.rule
+/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src/nlohmann_json-populate-stamp/nlohmann_json-populate-build.rule
+/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src/nlohmann_json-populate-stamp/nlohmann_json-populate-configure.rule
+/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src/nlohmann_json-populate-stamp/nlohmann_json-populate-download.rule
+/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src/nlohmann_json-populate-stamp/nlohmann_json-populate-install.rule
+/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src/nlohmann_json-populate-stamp/nlohmann_json-populate-mkdir.rule
+/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src/nlohmann_json-populate-stamp/nlohmann_json-populate-patch.rule
+/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src/nlohmann_json-populate-stamp/nlohmann_json-populate-test.rule
+/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src/nlohmann_json-populate-stamp/nlohmann_json-populate-update.rule

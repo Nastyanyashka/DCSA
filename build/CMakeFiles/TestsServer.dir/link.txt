@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/TestsServer.dir/src/test_server.cpp.o CMakeFiles/TestsServer.dir/src/Utility.cpp.o -o TestsServer  lib/libhv_static.a lib/libgtest.a -lpq -lpthread -lm -ldl -lrt -lstdc++ 

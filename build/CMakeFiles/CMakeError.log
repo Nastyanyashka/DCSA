@@ -1,0 +1,150 @@
+Determining if files sys/endian.h exist failed with the following output:
+Change Dir: /home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d5805/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d5805.dir/build.make CMakeFiles/cmTC_d5805.dir/build
+gmake[1]: Entering directory '/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5805.dir/HAVE_SYS_ENDIAN_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d5805.dir/HAVE_SYS_ENDIAN_H.c.o -c "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_ENDIAN_H.c"
+/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_ENDIAN_H.c:2:10: fatal error: sys/endian.h: No such file or directory
+    2 | #include <sys/endian.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_d5805.dir/build.make:78: CMakeFiles/cmTC_d5805.dir/HAVE_SYS_ENDIAN_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d5805/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/endian.h>
+
+
+int main(void){return 0;}
+
+Determining if the gettid exist failed with the following output:
+Change Dir: /home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_afe33/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_afe33.dir/build.make CMakeFiles/cmTC_afe33.dir/build
+gmake[1]: Entering directory '/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_afe33.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_afe33.dir/CheckSymbolExists.c.o -c "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘gettid’ undeclared (first use in this function); did you mean ‘getgid’?
+    8 |   return ((int*)(&gettid))[argc];
+      |                   ^~~~~~
+      |                   getgid
+/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_afe33.dir/build.make:78: CMakeFiles/cmTC_afe33.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_afe33/fast] Error 2
+
+
+File /home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettid
+  return ((int*)(&gettid))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcpy exist failed with the following output:
+Change Dir: /home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c7b69/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c7b69.dir/build.make CMakeFiles/cmTC_c7b69.dir/build
+gmake[1]: Entering directory '/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7b69.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c7b69.dir/CheckSymbolExists.c.o -c "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strlcpy’ undeclared (first use in this function); did you mean ‘strncpy’?
+    8 |   return ((int*)(&strlcpy))[argc];
+      |                   ^~~~~~~
+      |                   strncpy
+/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_c7b69.dir/build.make:78: CMakeFiles/cmTC_c7b69.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_c7b69/fast] Error 2
+
+
+File /home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcpy
+  return ((int*)(&strlcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcat exist failed with the following output:
+Change Dir: /home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_06acb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_06acb.dir/build.make CMakeFiles/cmTC_06acb.dir/build
+gmake[1]: Entering directory '/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_06acb.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_06acb.dir/CheckSymbolExists.c.o -c "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strlcat’ undeclared (first use in this function); did you mean ‘strncat’?
+    8 |   return ((int*)(&strlcat))[argc];
+      |                   ^~~~~~~
+      |                   strncat
+/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_06acb.dir/build.make:78: CMakeFiles/cmTC_06acb.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_06acb/fast] Error 2
+
+
+File /home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcat
+  return ((int*)(&strlcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setproctitle exist failed with the following output:
+Change Dir: /home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4c5a3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4c5a3.dir/build.make CMakeFiles/cmTC_4c5a3.dir/build
+gmake[1]: Entering directory '/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c5a3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4c5a3.dir/CheckSymbolExists.c.o -c "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘setproctitle’ undeclared (first use in this function)
+    8 |   return ((int*)(&setproctitle))[argc];
+      |                   ^~~~~~~~~~~~
+/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_4c5a3.dir/build.make:78: CMakeFiles/cmTC_4c5a3.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_4c5a3/fast] Error 2
+
+
+File /home/nastyanya/Desktop/trash/dcsa/LABA 1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setproctitle
+  return ((int*)(&setproctitle))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

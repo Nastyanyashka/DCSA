@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/libhv-subbuild/CMakeFiles/libhv-populate"
+		},
+		{
+			"file" : "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/libhv-subbuild/CMakeFiles/libhv-populate.rule"
+		},
+		{
+			"file" : "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/libhv-subbuild/CMakeFiles/libhv-populate-complete.rule"
+		},
+		{
+			"file" : "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/libhv-subbuild/libhv-populate-prefix/src/libhv-populate-stamp/libhv-populate-build.rule"
+		},
+		{
+			"file" : "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/libhv-subbuild/libhv-populate-prefix/src/libhv-populate-stamp/libhv-populate-configure.rule"
+		},
+		{
+			"file" : "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/libhv-subbuild/libhv-populate-prefix/src/libhv-populate-stamp/libhv-populate-download.rule"
+		},
+		{
+			"file" : "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/libhv-subbuild/libhv-populate-prefix/src/libhv-populate-stamp/libhv-populate-install.rule"
+		},
+		{
+			"file" : "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/libhv-subbuild/libhv-populate-prefix/src/libhv-populate-stamp/libhv-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/libhv-subbuild/libhv-populate-prefix/src/libhv-populate-stamp/libhv-populate-patch.rule"
+		},
+		{
+			"file" : "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/libhv-subbuild/libhv-populate-prefix/src/libhv-populate-stamp/libhv-populate-test.rule"
+		},
+		{
+			"file" : "/home/nastyanya/Desktop/trash/dcsa/LABA 1/build/_deps/libhv-subbuild/libhv-populate-prefix/src/libhv-populate-stamp/libhv-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libhv-populate"
+		],
+		"name" : "libhv-populate"
+	}
+}

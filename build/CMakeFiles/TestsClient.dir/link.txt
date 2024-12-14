@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/TestsClient.dir/src/test_client.cpp.o CMakeFiles/TestsClient.dir/src/Utility.cpp.o -o TestsClient  lib/libhv_static.a lib/libgtest.a -lpthread -lm -ldl -lrt -lstdc++ 

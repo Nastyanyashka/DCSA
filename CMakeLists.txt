@@ -27,7 +27,9 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(libhv nlohmann_json gtest pq)
 
-add_executable(HTTPServer src/new_server.cpp src/Utility.cpp)
+include_directories("/usr/include")
+
+add_executable(HTTPServer src/server.cpp src/Utility.cpp)
 add_executable(HTTPClient src/client.cpp src/Utility.cpp)
 add_executable(TestsServer src/test_server.cpp src/Utility.cpp)
 add_executable(TestsClient src/test_client.cpp src/Utility.cpp)
